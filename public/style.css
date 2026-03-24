@@ -1,0 +1,76 @@
+body {
+    background:#0f172a;
+    color:#e5e7eb;
+    font-family:Arial;
+    margin:0;
+}
+
+.group {
+    border:2px solid #1f2937;
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+    background:#111827;
+}
+
+.group.alarm {
+    border-color:#ef4444;
+    box-shadow:0 0 10px #ef4444;
+}
+
+.group-header {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+}
+
+.group-title {
+    font-size:20px;
+    font-weight:bold;
+}
+
+.group-diff {
+    font-size:18px;
+}
+
+.cards {
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.card {
+    background:#1f2937;
+    padding:10px;
+    border-radius:10px;
+    width:160px;
+    text-align:center;
+}
+
+.dev {
+    font-size:12px;
+    color:#9ca3af;
+}
+
+.sensor-name {
+    margin-top:5px;
+    font-size:14px;
+}
+
+.temp {
+    font-size:28px;
+    margin:10px 0;
+}
+
+.temp.ok {
+    color:#22c55e;
+}
+
+.temp.error {
+    color:#ef4444;
+}
+
+.time {
+    font-size:12px;
+    color:#9ca3af;
+}
